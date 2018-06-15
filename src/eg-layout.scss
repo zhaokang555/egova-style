@@ -1,0 +1,23 @@
+.eg-layout {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 300px 1fr;
+    height: 100%;
+
+    .eg-header {
+        grid-row: 1;
+        grid-column: 1 / 3;
+    }
+    .eg-nav {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .eg-footer {
+        grid-row: 3;
+        grid-column: 1 / 3;
+    }
+    .eg-content {
+        grid-row: 2;
+        grid-column: 2;
+    }
+}
