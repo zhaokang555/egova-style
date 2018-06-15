@@ -1,0 +1,17 @@
+{
+  "name": "egova-style",
+  "description": "",
+  "main": "dist/index.css",
+  "authors": [
+    "zhao kang"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zhaokang555/egova-style",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
