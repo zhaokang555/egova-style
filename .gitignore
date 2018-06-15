@@ -1,6 +1,7 @@
 .sass-cache/
 .idea/
-dist/
+# dist/
 ref/
 example/index.css
 node_modules
+bower.json
